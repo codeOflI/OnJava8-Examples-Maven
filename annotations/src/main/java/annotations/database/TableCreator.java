@@ -16,6 +16,7 @@ public class TableCreator {
     public static void
     main(String[] args) throws Exception {
         if (args.length < 1) {
+            // annotations.database.Member
             System.out.println(
                     "arguments: annotated classes");
             System.exit(0);

@@ -12,12 +12,12 @@ import onjava.atunit.Test;
 public class
 AUExternalTest extends AtUnitExample1 {
     @Test
-    boolean tMethodOne() {
+    boolean _MethodOne() {
         return methodOne().equals("This is methodOne");
     }
 
     @Test
-    boolean tMethodTwo() {
+    boolean _MethodTwo() {
         return methodTwo() == 2;
     }
 }
